@@ -393,6 +393,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1046244669}
   - component: {fileID: 1046244668}
+  - component: {fileID: 1046244670}
   m_Layer: 0
   m_Name: XR Origin
   m_TagString: Untagged
@@ -433,6 +434,23 @@ Transform:
   - {fileID: 1194240862}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1046244670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1046244667}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1760703bbd54c04488a8d10600262ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.XR.ARFoundation::UnityEngine.XR.ARFoundation.ARPlaneManager
+  <trackablesChanged>k__BackingField:
+    m_PersistentCalls:
+      m_Calls: []
+  m_PlanePrefab: {fileID: 0}
+  m_DetectionMode: -1
 --- !u!1 &1194240861
 GameObject:
   m_ObjectHideFlags: 0
@@ -754,6 +772,63 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
+--- !u!1001 &4576905798403739633
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 160422541409619513, guid: da321401156b43f42bcda4d641a504ce, type: 3}
+      propertyPath: m_Name
+      value: AR Plane
+      objectReference: {fileID: 0}
+    - target: {fileID: 1066116168826348910, guid: da321401156b43f42bcda4d641a504ce, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1066116168826348910, guid: da321401156b43f42bcda4d641a504ce, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1066116168826348910, guid: da321401156b43f42bcda4d641a504ce, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1066116168826348910, guid: da321401156b43f42bcda4d641a504ce, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1066116168826348910, guid: da321401156b43f42bcda4d641a504ce, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1066116168826348910, guid: da321401156b43f42bcda4d641a504ce, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1066116168826348910, guid: da321401156b43f42bcda4d641a504ce, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1066116168826348910, guid: da321401156b43f42bcda4d641a504ce, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1066116168826348910, guid: da321401156b43f42bcda4d641a504ce, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1066116168826348910, guid: da321401156b43f42bcda4d641a504ce, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: da321401156b43f42bcda4d641a504ce, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -762,3 +837,4 @@ SceneRoots:
   - {fileID: 203844589}
   - {fileID: 1572553207}
   - {fileID: 1046244669}
+  - {fileID: 4576905798403739633}
